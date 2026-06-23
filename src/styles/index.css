@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles and font setup */
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #F4F0EA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Titles use Urbanist */
+h1, h2, h3, h4 {
+  font-family: 'Urbanist', sans-serif;
+}
+
+/* Sidebar shadow and look */
+.sidebar {
+  background: #1C3040;
+  color: #ffffff;
+}
+
+/* Morosidad badge */
+.morosidad-badge {
+  background: #E03E3E;
+  color: white;
+}
+
+/* Simple card */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
